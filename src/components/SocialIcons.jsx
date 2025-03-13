@@ -10,7 +10,7 @@ const SocialIcons = () => {
             transition={{ duration: 0.8, delay: 1 }}
         >
             <motion.a
-                href="https://linkedin.com/in/yourhandle"
+                href="https://www.linkedin.com/in/priyabrata-majhi-a4a100206/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-amber-pop text-dark-slate flex items-center justify-center rounded-full shadow-lg hover:bg-yellow-500 transition-colors"
@@ -20,7 +20,7 @@ const SocialIcons = () => {
                 <FaLinkedin size={20} />
             </motion.a>
             <motion.a
-                href="https://github.com/yourhandle"
+                href="https://github.com/pmian"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-amber-pop text-dark-slate flex items-center justify-center rounded-full shadow-lg hover:bg-yellow-500 transition-colors"
@@ -30,7 +30,7 @@ const SocialIcons = () => {
                 <FaGithub size={20} />
             </motion.a>
             <motion.a
-                href="https://twitter.com/yourhandle"
+                href="https://x.com/pmajhi2001"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-amber-pop text-dark-slate flex items-center justify-center rounded-full shadow-lg hover:bg-yellow-500 transition-colors"

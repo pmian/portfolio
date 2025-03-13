@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import myPic from "../assets/my-pic.jpg"; // Replace with your image
+import ResumePDF from "../assets/Priyabrata-Majhi-FlowCV-Resume-20250306.pdf";
 
 const Hero = () => {
     return (
@@ -54,7 +55,7 @@ const Hero = () => {
                                 See My Work
                             </motion.a>
                             <motion.a
-                                href="/resume.pdf"
+                                href={ResumePDF}
                                 download
                                 className="inline-block border-2 border-amber-pop text-light-gray px-6 py-3 rounded-full font-semibold hover:bg-amber-pop hover:text-dark-slate transition-colors"
                                 whileHover={{ scale: 1.05 }}

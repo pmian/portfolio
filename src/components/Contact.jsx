@@ -1,5 +1,11 @@
 import { motion } from "framer-motion";
-import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import {
+    FaLinkedin,
+    FaGithub,
+    FaTwitter,
+    FaEnvelope,
+    FaMapMarkerAlt,
+} from "react-icons/fa";
 
 const Contact = () => {
     return (
@@ -22,16 +28,20 @@ const Contact = () => {
                         transition={{ duration: 0.8, delay: 0.2 }}
                     >
                         <p className="text-lg text-light-gray text-center md:text-left">
-                            Have a question or want to collaborate? Feel free to reach out! I'll get back to you as soon as possible.
+                            Have a question or want to collaborate? Feel free to reach out!
+                            I'll get back to you as soon as possible.
                         </p>
-                        <form className="space-y-4">
+                        <form
+                            action="https://formspree.io/f/xdkeojae"
+                            method="POST"
+                            className="space-y-4"
+                        >
                             <div className="flex flex-col space-y-2">
                                 <label htmlFor="name" className="text-light-gray">
                                     Name
                                 </label>
                                 <input
                                     type="text"
-                                    id="name"
                                     name="name"
                                     placeholder="Your Name"
                                     className="p-3 rounded-lg bg-deep-blue text-light-gray focus:outline-none focus:ring-2 focus:ring-amber-pop"
@@ -44,7 +54,6 @@ const Contact = () => {
                                 </label>
                                 <input
                                     type="email"
-                                    id="email"
                                     name="email"
                                     placeholder="Your Email"
                                     className="p-3 rounded-lg bg-deep-blue text-light-gray focus:outline-none focus:ring-2 focus:ring-amber-pop"
@@ -56,7 +65,6 @@ const Contact = () => {
                                     Message
                                 </label>
                                 <textarea
-                                    id="message"
                                     name="message"
                                     rows="5"
                                     placeholder="Your Message"
@@ -87,11 +95,13 @@ const Contact = () => {
                             <div className="space-y-2">
                                 <div className="flex items-center space-x-2">
                                     <FaMapMarkerAlt className="text-amber-pop" />
-                                    <p className="text-light-gray">Bhubaneswar, Odisha, India</p>
+                                    <p className="text-light-gray">Balasore, Odisha, India</p>
                                 </div>
                                 <div className="flex items-center space-x-2">
                                     <FaEnvelope className="text-amber-pop" />
-                                    <p className="text-light-gray">priyabrata.majhi@example.com</p>
+                                    <p className="text-light-gray">
+                                        priyabratamajhimnnitian@gmail.com
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -103,7 +113,7 @@ const Contact = () => {
                             </h3>
                             <div className="flex space-x-4">
                                 <a
-                                    href="https://linkedin.com/in/yourhandle"
+                                    href="https://www.linkedin.com/in/priyabrata-majhi-a4a100206/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-light-gray hover:text-amber-pop transition-colors"
@@ -111,7 +121,7 @@ const Contact = () => {
                                     <FaLinkedin size={24} />
                                 </a>
                                 <a
-                                    href="https://github.com/yourhandle"
+                                    href="https://github.com/pmian"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-light-gray hover:text-amber-pop transition-colors"
@@ -119,7 +129,7 @@ const Contact = () => {
                                     <FaGithub size={24} />
                                 </a>
                                 <a
-                                    href="https://twitter.com/yourhandle"
+                                    href="https://x.com/pmajhi2001"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-light-gray hover:text-amber-pop transition-colors"
@@ -132,15 +142,16 @@ const Contact = () => {
                         {/* Optional: Embed a Map */}
                         <div className="rounded-lg overflow-hidden">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.383525404038!2d85.81572631538405!3d20.29668628640453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1909d2d5170aa5%3A0xfc580e2b68b33fa8!2sBhubaneswar%2C%20Odisha!5e0!3m2!1sen!2sin!4v1633081234567!5m2!1sen!2sin"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3778.276211205504!2d86.93993717499292!3d21.493127161670415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1bb9b2a38cdbe3%3A0x58efc12c94032993!2sBalasore%2C%20Odisha!5e0!3m2!1sen!2sin!4v1710223456789!5m2!1sen!2sin"
                                 width="100%"
-                                height="200"
+                                height="250"
                                 style={{ border: 0 }}
                                 allowFullScreen=""
                                 loading="lazy"
                                 className="rounded-lg"
                             />
                         </div>
+
                     </motion.div>
                 </div>
             </div>
