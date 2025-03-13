@@ -76,10 +76,24 @@ const Hero = () => {
                         <motion.img
                             src={myPic}
                             alt="Priyabrata Majhi Standing"
-                            className="w-full h-auto border-4 border-amber-pop rounded-xl object-cover"
-                            animate={{ y: [0, -10, 0] }}
-                            transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+                            className="w-full h-auto border-4 border-amber-pop rounded-xl object-cover shadow-lg"
+                            animate={{
+                                y: [0, -15, 0], // Floating effect
+                                rotate: [-2, 2, -2], // Gentle rotation for depth
+                                scale: [1, 1.03, 1], // Breathing effect
+                            }}
+                            transition={{
+                                duration: 4,
+                                repeat: Infinity,
+                                ease: "easeInOut"
+                            }}
+                            whileHover={{
+                                scale: 1.05, // Subtle zoom on hover
+                                rotate: 0, // Stabilize rotation on hover for clarity
+                                boxShadow: "0px 15px 30px rgba(0, 0, 0, 0.3)", // Professional-level depth effect
+                            }}
                         />
+
                     </motion.div>
                 </div>
             </div>
