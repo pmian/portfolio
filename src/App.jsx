@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import SocialIcons from "./components/SocialIcons";
+import Experience from "./components/Experience";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -87,6 +88,11 @@ function App() {
       {/* About Section */}
       <section id="about">
         <About />
+      </section>
+
+      {/* Experience Section  */}
+      <section id="experience">
+        <Experience />
       </section>
 
       {/* Projects Section */}
