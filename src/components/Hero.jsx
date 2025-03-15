@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import myPic from "../assets/my-pic.jpg"; // Replace with your image
-import ResumePDF from "../assets/Priyabrata-Majhi-FlowCV-Resume-20250306.pdf";
+import ResumePDF from "../assets/Priyabrata-Majhi-FlowCV-Resume-20250315.pdf";
 
 const Hero = () => {
     return (
