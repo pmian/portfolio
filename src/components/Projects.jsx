@@ -7,7 +7,7 @@ const Projects = () => {
             description:
                 "Built a full-stack recipe-sharing app with user authentication, allowing users to post, edit, and manage recipes. Enabled recipe creation with detailed ingredients and step-by-step instructions. Allowed users to explore and interact with community-shared recipes. Implemented like and comment features to boost user engagement. Designed a clean and responsive UI with Tailwind CSS for a smooth browsing experience.",
             technologies: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Tailwind CSS", "Axios"],
-            link: "#",
+            link: "https://recipe-sharing-app-numberone.vercel.app/",
             image: "https://via.placeholder.com/400x250", // Replace with your project image
         },
         {
@@ -15,7 +15,7 @@ const Projects = () => {
             description:
                 "Built a full-stack to-do app with user authentication, enabling task creation, editing, and deletion. Implemented task categorization, and progress tracking for improved productivity. Designed a responsive and intuitive UI with Tailwind CSS.",
             technologies: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Tailwind CSS", "Axios"],
-            link: "#",
+            link: "https://to-do-app-numberone.vercel.app/",
             image: "https://via.placeholder.com/400x250", // Replace with your project image
         },
         {
@@ -23,7 +23,7 @@ const Projects = () => {
             description:
                 "Developed a real-time weather app with Google authentication, allowing users to access personalized forecasts. Integrated OpenWeather API to display current weather conditions and 7-day forecasts. Implemented a search feature for global locations, enhancing accessibility. Designed a responsive and minimal UI using Tailwind CSS for a seamless user experience.",
             technologies: ["React", "Firebase Authentication", "OpenWeatherMap API", "Tailwind CSS", "Axios"],
-            link: "#",
+            link: "https://weather-app-numberone.vercel.app/",
             image: "https://via.placeholder.com/400x250", // Replace with your project image
         },
 
@@ -74,6 +74,7 @@ const Projects = () => {
                             <a
                                 href={project.link}
                                 className="inline-block bg-amber-pop text-dark-slate px-6 py-2 rounded-full font-semibold hover:bg-yellow-500 transition-colors"
+                                target="_blank"
                             >
                                 View Project →
                             </a>
