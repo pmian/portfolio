@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 
 const Navbar = ({ isOpen, setIsOpen, scrollToSection }) => {
-    const navItems = ["Hero", "About", "Experience", "Projects", "Contact"];
+    const navItems = ["Home", "About", "Experience", "Projects", "Contact"];
 
     return (
         <motion.nav
