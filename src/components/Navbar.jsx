@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 
 const Navbar = ({ isOpen, setIsOpen, scrollToSection }) => {
+    const navItems = ["Hero", "About", "Experience", "Projects", "Contact"];
+
     return (
         <motion.nav
             initial={{ y: -50 }}
@@ -31,12 +33,12 @@ const Navbar = ({ isOpen, setIsOpen, scrollToSection }) => {
                     className={`${isOpen ? "block" : "hidden"
                         } md:flex md:space-x-6 absolute md:static top-16 left-0 w-full md:w-auto bg-deep-blue/80 backdrop-blur-md md:bg-transparent p-4 md:p-0`}
                 >
-                    {["Home", "Projects", "Contact"].map((item, index) => (
+                    {navItems.map((item, index) => (
                         <motion.li
                             key={item}
                             initial={{ opacity: 0, y: -20 }}
                             animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5, delay: index * 0.2 }}
+                            transition={{ duration: 0.5, delay: index * 0.1 }}
                             className="mb-4 md:mb-0"
                         >
                             <a

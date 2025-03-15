@@ -21,16 +21,10 @@ const Experience = () => {
                 >
                     {[
                         {
-                            role: "Frontend Developer",
-                            company: "Tech Corp",
-                            duration: "Jan 2023 - Present",
-                            desc: "Built responsive web apps with React and Tailwind.",
-                        },
-                        {
-                            role: "Web Intern",
-                            company: "Startup XYZ",
-                            duration: "Jun 2022 - Dec 2022",
-                            desc: "Assisted in UI design and JavaScript development.",
+                            role: "Software Engineer Intern",
+                            company: "Visa Inc.",
+                            duration: "May 2023 - Aug 2023",
+                            desc: "Developed reusable UI components to streamline authentication workflows. Improved frontend scalability and collaborated with cross-functional teams to enhance user experience.",
                         },
                     ].map((exp, index) => (
                         <motion.div

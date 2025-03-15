@@ -78,19 +78,13 @@ const Hero = () => {
                             alt="Priyabrata Majhi Standing"
                             className="w-full h-auto border-4 border-amber-pop rounded-xl object-cover shadow-lg"
                             animate={{
-                                y: [0, -15, 0], // Floating effect
-                                rotate: [-2, 2, -2], // Gentle rotation for depth
-                                scale: [1, 1.03, 1], // Breathing effect
-                            }}
-                            transition={{
-                                duration: 4,
-                                repeat: Infinity,
-                                ease: "easeInOut"
+                                filter: "brightness(105%) contrast(105%)", // Slight glow effect at rest
                             }}
                             whileHover={{
-                                scale: 1.05, // Subtle zoom on hover
-                                rotate: 0, // Stabilize rotation on hover for clarity
-                                boxShadow: "0px 15px 30px rgba(0, 0, 0, 0.3)", // Professional-level depth effect
+                                scale: 1.1, // Enlarges image on hover
+                                filter: "brightness(115%) contrast(115%)", // Boosts brightness more on hover
+                                boxShadow: "0px 20px 40px rgba(0, 0, 0, 0.4)", // Adds depth on hover
+                                transition: { duration: 0.3, ease: "easeOut" }, // Smooth transition
                             }}
                         />
 

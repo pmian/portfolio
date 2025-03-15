@@ -3,38 +3,34 @@ import { motion } from "framer-motion";
 const Projects = () => {
     const projects = [
         {
+            title: "Recipe Sharing App",
+            description:
+                "Built a full-stack recipe-sharing app with user authentication, allowing users to post, edit, and manage recipes. Enabled recipe creation with detailed ingredients and step-by-step instructions. Allowed users to explore and interact with community-shared recipes. Implemented like and comment features to boost user engagement. Designed a clean and responsive UI with Tailwind CSS for a smooth browsing experience.",
+            technologies: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Tailwind CSS", "Axios"],
+            link: "#",
+            image: "https://via.placeholder.com/400x250", // Replace with your project image
+        },
+        {
             title: "To-Do App",
             description:
-                "A feature-rich to-do app with authentication, drag & drop functionality, reminders, and real-time updates. Built with React, Firebase, and Tailwind CSS.",
-            technologies: ["React", "Firebase", "Tailwind CSS", "Drag & Drop API"],
+                "Built a full-stack to-do app with user authentication, enabling task creation, editing, and deletion. Implemented task categorization, and progress tracking for improved productivity. Designed a responsive and intuitive UI with Tailwind CSS.",
+            technologies: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Tailwind CSS", "Axios"],
             link: "#",
             image: "https://via.placeholder.com/400x250", // Replace with your project image
         },
         {
             title: "Weather App",
             description:
-                "A sleek weather forecasting app that provides real-time weather updates, 7-day forecasts, and location-based weather data. Integrated with OpenWeatherMap API.",
-            technologies: ["React", "OpenWeatherMap API", "Tailwind CSS", "Axios"],
+                "Developed a real-time weather app with Google authentication, allowing users to access personalized forecasts. Integrated OpenWeather API to display current weather conditions and 7-day forecasts. Implemented a search feature for global locations, enhancing accessibility. Designed a responsive and minimal UI using Tailwind CSS for a seamless user experience.",
+            technologies: ["React", "Firebase Authentication", "OpenWeatherMap API", "Tailwind CSS", "Axios"],
             link: "#",
             image: "https://via.placeholder.com/400x250", // Replace with your project image
         },
-        {
-            title: "Recipe Sharing App",
-            description:
-                "A platform for food enthusiasts to share and discover new recipes. Features include user authentication, recipe search, and a beautiful UI.",
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
-            link: "#",
-            image: "https://via.placeholder.com/400x250", // Replace with your project image
-        },
-        {
-            title: "E-Commerce Store",
-            description:
-                "A fully functional e-commerce store with product listings, a shopping cart, and secure payment integration using Stripe.",
-            technologies: ["React", "Stripe API", "Node.js", "MongoDB", "Tailwind CSS"],
-            link: "#",
-            image: "https://via.placeholder.com/400x250", // Replace with your project image
-        },
+
     ];
+
+
+
 
     return (
         <section id="projects" className="py-16 bg-deep-blue">

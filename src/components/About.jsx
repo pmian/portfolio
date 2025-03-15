@@ -24,11 +24,18 @@ const About = () => {
                             Hi, I'm <span className="text-amber-pop font-semibold">Priyabrata Majhi</span>, a passionate and creative web developer with a love for building beautiful, functional, and user-friendly applications. I specialize in <span className="text-amber-pop">front-end development</span> and have experience working with modern technologies like <span className="text-amber-pop">React</span>, <span className="text-amber-pop">Tailwind CSS</span>, and <span className="text-amber-pop">Node.js</span>.
                         </p>
                         <p className="text-lg text-light-gray leading-relaxed">
-                            I believe that great design and seamless functionality go hand in hand. Whether it's crafting a responsive UI or optimizing performance, I strive to deliver the best user experience possible.
+                            Beyond front-end development, I also work with <span className="text-amber-pop">Express.js</span> and <span className="text-amber-pop">MongoDB</span> to build scalable and efficient full-stack applications. I have a strong foundation in <span className="text-amber-pop">REST APIs</span> and <span className="text-amber-pop">JWT authentication</span>, ensuring seamless data flow and security in web applications.
                         </p>
                         <p className="text-lg text-light-gray leading-relaxed">
-                            When I'm not coding, you can find me exploring new tech trends, contributing to open-source projects, or enjoying a good cup of coffee while brainstorming my next big idea.
+                            I am deeply passionate about solving real-world problems through **technology and logical thinking**. I actively enhance my problem-solving skills by practicing <span className="text-amber-pop">Data Structures & Algorithms</span> and participating in coding challenges on platforms like LeetCode. My ability to break down complex problems into efficient solutions helps me create optimized and high-performance applications.
                         </p>
+                        <p className="text-lg text-light-gray leading-relaxed">
+                            I believe that great design and seamless functionality go hand in hand. Whether it's crafting a responsive UI, optimizing performance, or deploying applications with <span className="text-amber-pop">Vercel</span> and <span className="text-amber-pop">Render</span>, I strive to deliver the best user experience possible. I enjoy collaborating with other developers and continuously learning new technologies to stay ahead in the fast-evolving tech landscape.
+                        </p>
+                        <p className="text-lg text-light-gray leading-relaxed">
+                            When I’m not coding, I explore the latest advancements in web technologies, contribute to open-source projects, and work on **side projects** that challenge me to push my limits. I'm always excited to learn, experiment, and build solutions that make a difference.
+                        </p>
+
                     </motion.div>
 
                     {/* Right Side: Skills */}
@@ -45,10 +52,19 @@ const About = () => {
                                 "Tailwind CSS",
                                 "JavaScript (ES6+)",
                                 "Node.js",
+                                "Express.js",
+                                "MongoDB & Mongoose",
+                                "Firebase Authentication",
+                                "JWT Authentication",
                                 "Git & GitHub",
-                                "Responsive Design",
                                 "REST APIs",
+                                "Responsive Design",
                                 "UI/UX Design",
+                                "Vercel & Render (Deployment)",
+                                "Postman (API Testing)",
+                                "MongoDB Atlas & Compass",
+                                "Data Structures & Algorithms (DSA)",
+                                "Problem-Solving & Competitive Programming (C++)"
                             ].map((skill, index) => (
                                 <div
                                     key={index}
