@@ -1,4 +1,7 @@
 import { motion } from "framer-motion";
+import recipeSharingApp from "../assets/recipe-sharing-app.png";
+import todoApp from "../assets/todo-app.png";
+import weatherApp from "../assets/weather-app.png";
 
 const Projects = () => {
     const projects = [
@@ -8,7 +11,7 @@ const Projects = () => {
                 "Built a full-stack recipe-sharing app with user authentication, allowing users to post, edit, and manage recipes. Enabled recipe creation with detailed ingredients and step-by-step instructions. Allowed users to explore and interact with community-shared recipes. Implemented like and comment features to boost user engagement. Designed a clean and responsive UI with Tailwind CSS for a smooth browsing experience.",
             technologies: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Tailwind CSS", "Axios"],
             link: "https://recipe-sharing-app-numberone.vercel.app/",
-            image: "https://via.placeholder.com/400x250", // Replace with your project image
+            image: recipeSharingApp, // Replace with your project image
         },
         {
             title: "To-Do App",
@@ -16,7 +19,7 @@ const Projects = () => {
                 "Built a full-stack to-do app with user authentication, enabling task creation, editing, and deletion. Implemented task categorization, and progress tracking for improved productivity. Designed a responsive and intuitive UI with Tailwind CSS.",
             technologies: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Tailwind CSS", "Axios"],
             link: "https://to-do-app-numberone.vercel.app/",
-            image: "https://via.placeholder.com/400x250", // Replace with your project image
+            image: todoApp, // Replace with your project image
         },
         {
             title: "Weather App",
@@ -24,7 +27,7 @@ const Projects = () => {
                 "Developed a real-time weather app with Google authentication, allowing users to access personalized forecasts. Integrated OpenWeather API to display current weather conditions and 7-day forecasts. Implemented a search feature for global locations, enhancing accessibility. Designed a responsive and minimal UI using Tailwind CSS for a seamless user experience.",
             technologies: ["React", "Firebase Authentication", "OpenWeatherMap API", "Tailwind CSS", "Axios"],
             link: "https://weather-app-numberone.vercel.app/",
-            image: "https://via.placeholder.com/400x250", // Replace with your project image
+            image: weatherApp, // Replace with your project image
         },
 
     ];
@@ -55,7 +58,7 @@ const Projects = () => {
                             <img
                                 src={project.image}
                                 alt={project.title}
-                                className="w-full h-48 object-cover rounded-lg mb-4"
+                                className="w-full h-48 object-contain rounded-lg mb-4"
                             />
                             <h3 className="text-2xl font-semibold mb-2 text-amber-pop">
                                 {project.title}
